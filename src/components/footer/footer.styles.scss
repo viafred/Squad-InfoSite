@@ -1,0 +1,96 @@
+/* footer */
+// Currently fixed at the bottom so will need to be changed
+
+@import '../../scss/mixins';
+@import '../../scss/variables';
+
+/* background-color: #343e41; */
+
+.pre-footer {
+  height: 80px;
+}
+
+#footer {
+  background-color: #343e41;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  height: 72px;
+  bottom: 0px;
+  margin-top: 30px;
+  color: #FFF;
+
+    .img-container {
+      height: 72px;
+    }
+    #squad-logo{
+      min-width: 25%;
+      align-content: center;
+      padding: 1.5% 0% .5% 0%;
+    }
+    img {
+      height: 32px;
+      width: 122px;
+      padding-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #links{
+      max-width: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      padding-left: 40px;
+
+      #text-links{
+        text-decoration: none;
+        color: #FFF;
+        padding: 0 10px 0 10px;
+      }
+      #text-links:last-child {
+        padding-right: 20px;
+      }
+    }
+    #copyright{
+      font-size: 12px;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      padding-right: 40px;
+
+      p {
+        position: absolute;
+        right: 40px;
+        bottom: 0;
+        line-height: 72px;
+        margin: 0;
+      }
+    }
+}
+/* Screen size overrides */
+@media screen and (max-width: 768px) {
+  #footer {
+    height: 125px;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+
+    img{
+      padding: 15px 0px;
+    }
+    #links {
+      padding-bottom: 15px;
+      font-size: 12px;
+    }
+    #copyright p{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      font-size: 9px;
+      padding: 0;
+      position: relative;
+    }
+  }
+}

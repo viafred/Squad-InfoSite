@@ -1,0 +1,123 @@
+/* navbar */
+
+@import '../../scss/mixins';
+@import '../../scss/variables';
+
+#basic-navbar-nav a{
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 72px;
+  color: white;
+}
+
+nav.navbar {
+  justify-content: space-between;
+  background-color: #343e41;
+  display: flex;
+  height: 72px;
+  width: 100vw;
+
+  .img-container {
+    height: 72px;
+  }
+
+  img.navbar-logo {
+    height: 36px;
+    width: 128px;
+    padding-left: 100px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .navbar-collapse {
+    padding-right: 30px;
+  }
+  .icon-space.active svg, .icon-space.active span {
+    color: #44B6B9
+  }
+
+  .icon-upload {
+    margin-top: 5px;
+  }
+
+  .browser-view {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #login {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    cursor: pointer;
+  }
+
+  #login:hover {
+    background-color: $primary-onhover-color
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  nav.navbar {
+    .navbar-logo {
+      position: relative;
+      top: 8px;
+      width: 40%;
+    }
+
+    .navbar-brand-left {
+      float: left;
+    }
+
+    .navbar-brand-right {
+      float: right;
+      position: relative;
+      top: -20px;
+      right: -30px;
+    }
+
+    .nav-link {
+      display: inline;
+      padding: 0px;
+    }
+
+    .icon-space {
+      margin-right: 10px;
+      color: #FFFFFF;
+    }
+
+    img.profile-image {
+      margin-left: 15px;
+      width: 30px;
+    }
+
+    img.profile-image.customer {
+      width: 41px;
+    }
+    
+    .login-button {
+      position: relative;
+      top: 20px;
+    }
+  }
+
+  .footer-menu {
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+
+    a {
+      color: #343E4A;
+
+      span {
+        display: block;
+        font-size: 10px;
+      }
+    }
+  }
+}

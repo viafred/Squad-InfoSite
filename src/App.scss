@@ -1,0 +1,138 @@
+@import './scss/mixins';
+@import './scss/variables';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./assets/fonts/Montserrat-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Montserrat Thin';
+  src: local('Montserrat Thin'), url(./assets/fonts/Montserrat-Thin.ttf) format('truetype');
+}
+
+@mixin shimmer {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #eff1f3 4%, #e8e8e8 25%, #eff1f3 36%);
+  background-size: 1000px 100%;
+}
+@mixin shimmer_keyframes {
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+}
+
+/* app.scss */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  word-break: initial;
+  background-color: #f2ded8;
+}
+
+.squad-alert {
+  button.swal2-confirm {
+    background-color: $primary-color;
+  }
+}
+
+.react-datepicker__input-container {
+  .form-input.datepicker {
+    margin: 0px !important;
+  }
+}
+
+.loading {
+  @include shimmer();
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-border-color;
+}
+
+.btn-primary:hover {
+  background-color: $primary-onhover-color;
+  border-color: $primary-border-color;
+}
+
+.mobile-footer {
+  height: 100px;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-primary {
+  color: $primary-border-color;
+  border-color:  $primary-color;
+}
+
+.btn-outline-primary:hover {
+  background-color: $primary-onhover-color;
+  border-color: $primary-border-color;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #000000;
+  background-color: #cdcdcd;
+  border-color: #6c757d;
+}
+
+.squad-tabs.nav {
+  background-color: transparent;
+  height: 50px;
+  border-bottom: 2px solid #CDCACA;
+
+  .nav-link {
+    border: none;
+    outline: none;
+  }
+
+  .nav-item {
+    background: transparent;
+    text-align: left;
+    color: #908F8F;
+    width: 125px;
+    padding-left: 0px;
+  }
+
+  .nav-link.active {
+    background-color: transparent;
+    text-align: left;
+
+  }
+
+  .nav-link.active:after{
+    content: "";
+    display: block;
+    width: 25%;
+    padding-top: 15px;
+    border-bottom: 3px solid black;
+  }
+
+  .nav-link:hover {
+    border: none;
+  }
+
+  @include mobile {
+    height: 41px;
+
+    .nav-link.active:after{
+      width: 60%;
+    }
+
+    .nav-item {
+      font-size: 0.7em;
+    }
+  }
+}

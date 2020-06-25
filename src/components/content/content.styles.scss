@@ -1,0 +1,77 @@
+.what-container,
+.subscriber-container,
+.team-container {
+  background-color: #FAFAFA;
+  width: 100%;
+}
+.unique-container,
+.community-container {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+.content {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 75px 0 75px 0;
+}
+.img-wrapper {
+  width: 50%;
+  display: inline-block;
+  
+  img {
+    width: 100%;
+  }
+}
+.text-container {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.team-container {
+  padding-bottom: 100px;
+}
+.team-container table tr td {
+  text-align: center;
+  width: 333px;
+  padding: 10px 25px;
+}
+.team-container table tr td img {
+  width: 200px;
+}
+.polygon {
+  position: absolute;
+  width: 67px;
+  height: 93px;
+  right: 75px;
+  top: 403px;
+  background: #FAFAFA;
+  transform: rotate(-138deg);
+}
+.polygon1 {
+  position: absolute;
+  width: 67px;
+  height: 93px;
+  left: 75px;
+  top: 802px;
+  background: #FFFFFF;
+  transform: rotate(-138deg);
+}
+.polygon2 {
+  position: absolute;
+  width: 67px;
+  height: 93px;
+  right: 75px;
+  top: 1351px;
+  background: #FAFAFA;
+  transform: rotate(-138deg);
+}
+.polygon3 {
+  position: absolute;
+  width: 67px;
+  height: 93px;
+  left: 75px;
+  top: 1651px;
+  background: #FFFFFF;
+  transform: rotate(-138deg);
+}
