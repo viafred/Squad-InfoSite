@@ -9,11 +9,19 @@
   background-color: #FFFFFF;
   width: 100%;
 }
+.subscriber-container {
+  height: 556.938px;
+  overflow: visible;
+}
+.community-container {
+  height: 375px;
+  overflow: visible;
+}
 .content {
   max-width: 768px;
   margin-left: auto;
   margin-right: auto;
-  padding: 75px 0 75px 0;
+  padding: 50px 0 50px 0;
 }
 .img-wrapper {
   width: 50%;
@@ -22,6 +30,20 @@
   img {
     width: 100%;
   }
+  .iPad {
+    width: 200%;
+    margin-top: -75px;
+    margin-left: -100px;
+  }
+  .tiltiPad {
+    width: 155%;
+    margin-top: -50px;
+    margin-left: -140px;
+  }
+}
+.iPadWrap,
+.tiltiPadWrap {
+  position: relative;
 }
 .text-container {
   width: 50%;
@@ -32,6 +54,10 @@
 }
 .text-wrapper {
   width: 289px;
+  margin: auto;
+}
+.text-wrapper1 {
+  width: 350px;
   margin: auto;
 }
 .team-container {
@@ -49,35 +75,25 @@
   position: absolute;
   width: 67px;
   height: 93px;
-  right: 75px;
-  top: 387px;
+  transform: rotate(-138deg);
+}
+.polygon.one {
+  top: 337px;
   background: #FAFAFA;
-  transform: rotate(-138deg);
+  right: 25%;
 }
-.polygon1 {
-  position: absolute;
-  width: 67px;
-  height: 93px;
-  left: 75px;
-  top: 771px;
+.polygon.two {
+  top: 671px;
   background: #FFFFFF;
-  transform: rotate(-138deg);
+  left: 25%;
 }
-.polygon2 {
-  position: absolute;
-  width: 67px;
-  height: 93px;
-  right: 75px;
-  top: 1321px;
+.polygon.three {
+  top: 1229px;
   background: #FAFAFA;
-  transform: rotate(-138deg);
+  right: 25%;
 }
-.polygon3 {
-  position: absolute;
-  width: 67px;
-  height: 93px;
-  left: 75px;
-  top: 1761px;
+.polygon.four {
+  top: 1603px;
   background: #FFFFFF;
-  transform: rotate(-138deg);
+  left: 25%;  
 }
