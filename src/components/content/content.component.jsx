@@ -21,8 +21,10 @@ const ContentComponent = () => {
             <img src={what} alt='What is Squad mockup' />
           </div>
           <div className="text-container">
-            <h1>What is Squad?</h1>
-            <p>Squad is the first Gen Z Insight, Research & Feedback solution designed specifically for Fashion & Streetwear Brands & Retailers.</p>
+            <div className="text-wrapper">
+              <h1>What is Squad?</h1>
+              <p>Squad is the first Gen Z Insight, Research & Feedback solution designed specifically for Fashion & Streetwear Brands & Retailers.</p>
+            </div>
           </div>
         </div>
         <div className="polygon"></div>
