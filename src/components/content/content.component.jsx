@@ -29,7 +29,7 @@ const ContentComponent = () => {
         </div>
         <div className="polygon one"></div>
       </div>
-      <div className="unique-container">
+      <div className="unique-container" id="unique">
         <div className="content">
           <div className="text-container">
             <div className="text-wrapper">
@@ -43,7 +43,7 @@ const ContentComponent = () => {
         </div>
         <div className="polygon two"></div>
       </div>
-      <div className="subscriber-container">
+      <div className="subscriber-container" id="subscriber">
         <div className="content">
           <div className="img-wrapper iPadWrap">
             <img src={benefits} alt='Subscriber benefits' className="iPad" />
@@ -58,7 +58,7 @@ const ContentComponent = () => {
         </div>
         <div className="polygon three"></div>
       </div>
-      <div className="community-container">
+      <div className="community-container" id="community">
         <div className="content">
           <div className="text-container">
           < div className="text-wrapper">
@@ -72,7 +72,7 @@ const ContentComponent = () => {
         </div>
         <div className="polygon four"></div>
       </div>
-      <div className="team-container">
+      <div className="team-container" id="team">
         <div className="content">
           <h1>Meet the Team</h1>
           <table>

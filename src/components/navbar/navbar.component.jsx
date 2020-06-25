@@ -15,10 +15,10 @@ const NavbarComponent = ()  => {
 			</div>
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto" pullright="true">
-						<a href="/"><span>What is squad?</span></a>
-						<a href="/"><span>Members</span></a>
-						<a href="/"><span>Feedback</span></a>
-						<a href="/"><span>Team</span></a>
+						<a href="#what"><span>What is squad?</span></a>
+						<a href="#unique"><span>Members</span></a>
+						<a href="#subscriber"><span>Feedback</span></a>
+						<a href="#team"><span>Team</span></a>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
