@@ -32,7 +32,7 @@ const ContentComponent = () => {
       <div className="unique-container" id="unique">
         <div className="content">
           <div className="text-container">
-            <div className="text-wrapper">
+            <div className="text-wrapper unique">
               <h1>What makes Squad unique?</h1>
               <p>Squad is a community comprised of real consumers that willingly share who they are and what they buy.</p>
             </div>
@@ -49,7 +49,7 @@ const ContentComponent = () => {
             <img src={benefits} alt='Subscriber benefits' className="iPad" />
           </div>
           <div className="text-container">
-            <div className="text-wrapper1">
+            <div className="text-wrapper subscribe">
               <h1>Subscriber Benefits</h1>
               <p>As a Squad subscriber you get real time access to the purchase (brand, category and product) and demographic (age, gender, ethnography, etc) data of every Squad member including data science driven insights & intelligence invisible to the naked eye.</p>
               <p>Squad subscribers can also solicit feedback from any Member or group of Members leveraging any combination of the consumption, preference or demographic data points we have on that Member or groups of Members. Gen Subscribers can leverage our pre-built Gen-Z optimized feedback formats. Our services team can also design & development custom feedback solutions.</p>

@@ -37,7 +37,7 @@
   }
   .tiltiPad {
     width: 155%;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: -140px;
   }
 }
@@ -56,9 +56,11 @@
   width: 289px;
   margin: auto;
 }
-.text-wrapper1 {
-  width: 350px;
-  margin: auto;
+.text-wrapper.unique {
+  width: 312px !important;
+}
+.text-wrapper.subscribe {
+  width: 350px !important;
 }
 .team-container {
   padding-bottom: 100px;
