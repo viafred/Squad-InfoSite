@@ -73,27 +73,29 @@
 }
 .polygon {
   position: absolute;
-  width: 67px;
-  height: 93px;
-  transform: rotate(-138deg);
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(-180deg);
 }
 .polygon.one {
-  top: 337px;
-  background: #FAFAFA;
+  top: 373px;
+  border-bottom: 60px solid #FAFAFA;
   right: 25%;
 }
 .polygon.two {
-  top: 671px;
-  background: #FFFFFF;
+  top: 711px;
+  border-bottom: 60px solid #FFFFFF;
   left: 25%;
 }
 .polygon.three {
-  top: 1229px;
-  background: #FAFAFA;
+  top: 1267px;
+  border-bottom: 60px solid #FAFAFA;
   right: 25%;
 }
 .polygon.four {
-  top: 1603px;
-  background: #FFFFFF;
+  top: 1643px;
+  border-bottom: 60px solid #FFFFFF;
   left: 25%;  
 }
