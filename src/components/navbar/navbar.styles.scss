@@ -33,28 +33,6 @@ nav.navbar {
   .navbar-collapse {
     padding-right: 30px;
   }
-  .icon-space.active svg, .icon-space.active span {
-    color: #44B6B9
-  }
-
-  .icon-upload {
-    margin-top: 5px;
-  }
-
-  .browser-view {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #login {
-    background-color: $primary-color;
-    border-color: $primary-color;
-    cursor: pointer;
-  }
-
-  #login:hover {
-    background-color: $primary-onhover-color
-  }
 }
 
 
@@ -65,41 +43,6 @@ nav.navbar {
       position: relative;
       top: 8px;
       width: 40%;
-    }
-
-    .navbar-brand-left {
-      float: left;
-    }
-
-    .navbar-brand-right {
-      float: right;
-      position: relative;
-      top: -20px;
-      right: -30px;
-    }
-
-    .nav-link {
-      display: inline;
-      padding: 0px;
-    }
-
-    .icon-space {
-      margin-right: 10px;
-      color: #FFFFFF;
-    }
-
-    img.profile-image {
-      margin-left: 15px;
-      width: 30px;
-    }
-
-    img.profile-image.customer {
-      width: 41px;
-    }
-    
-    .login-button {
-      position: relative;
-      top: 20px;
     }
   }
 
